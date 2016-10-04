@@ -7,8 +7,8 @@ import crazy.service.ClientService;
 public class crazyApp {
 
 	public static void main(String[] args) {
-		//añadir Spring
-		//ApplicationContext appCtx = new ClassPathXmlApplicationContext("app-ctx.xml");
+		//Con esta linea añadimos el framework de Spring
+		ApplicationContext appCtx = new ClassPathXmlApplicationContext("app-ctx.xml");
 		
 		ClientService cs = new ClientService();
 		Client c = cs.getClient("raul@gmail.com");
