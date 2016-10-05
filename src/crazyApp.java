@@ -8,7 +8,8 @@ public class crazyApp {
 
 	public static void main(String[] args) {
 		//Con esta linea añadimos el framework de Spring
-		ApplicationContext appCtx = new ClassPathXmlApplicationContext("app-ctx.xml");
+		//ApplicationContext appCtx = new ClassPathXmlApplicationContext("app-ctx.xml");
+		//Esto es una prueba hecha en clase.
 		
 		ClientService cs = new ClientService();
 		Client c = cs.getClient("raul@gmail.com");
