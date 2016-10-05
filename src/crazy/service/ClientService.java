@@ -8,7 +8,7 @@ public class ClientService {
 		Client c = new Client();
 		c.setNombre("Raul");
 		c.setApellido("Sanchez");
-		c.setEmail("Raul@gmial.com");
+		c.setEmail("Raul@gmail.com");
 		
 		return c;
 		
